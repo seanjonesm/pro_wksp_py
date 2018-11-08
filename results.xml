@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<root>
+	<TestResult>
+		<Title>ePO Login</Title>
+		<NumberOfScreenshots>1</NumberOfScreenshots>
+		<TimeStamp>2018-10-19 14:56:34.358599</TimeStamp>
+		<Status>PASS</Status>
+	</TestResult>
+	<TestResult>
+		<Title>Add Extension: ProtectionWorkspace-services</Title>
+		<NumberOfScreenshots>2</NumberOfScreenshots>
+		<TimeStamp>2018-10-19 14:57:00.393528</TimeStamp>
+		<Status>PASS</Status>
+	</TestResult>
+	<TestResult>
+		<Title>Add Extension: whatev</Title>
+		<NumberOfScreenshots>3</NumberOfScreenshots>
+		<TimeStamp>2018-10-19 14:57:21.289037</TimeStamp>
+		<Status>FAIL</Status>
+	</TestResult>
+</root>

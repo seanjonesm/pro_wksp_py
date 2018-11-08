@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EPOEvent>
+    <MachineInfo>
+        <AgentGUID>{52d027ae-706e-4f00-8936-47da9bda7e3e}</AgentGUID>
+        <MachineName>HH-PW-SERVER1</MachineName>
+        <RawMACAddress>0050569A7226</RawMACAddress>
+        <IPAddress>10.25.25.25</IPAddress>
+        <AgentVersion>5.5.1.342</AgentVersion>
+        <OSName>Windows 10</OSName>
+        <TimeZoneBias>420</TimeZoneBias>
+        <UserName>epoauto</UserName>
+    </MachineInfo>
+    <SoftwareInfo ProductName="MVE Service" ProductVersion="18.8.3.11" ProductFamily="TVD">
+        <CommonFields>
+            <Analyzer>MVIS_EP_1000</Analyzer>
+            <AnalyzerDetectionMethod>Microsoft Windows Defender</AnalyzerDetectionMethod>
+            <AnalyzerName>MVISION Endpoint</AnalyzerName>
+            <AnalyzerVersion>18.8.3.11</AnalyzerVersion>
+        </CommonFields>
+        <Event>
+            <EventID>1032</EventID>
+            <Severity>2</Severity>
+            <GMTTime>2018-10-03T22:19:15</GMTTime>
+            <LocalTime>2018-10-03T15:19:15</LocalTime>
+            <CommonFields>
+                <TargetFileName>_C:\Users\epoauto\Desktop\z.txt</TargetFileName>
+                <ThreatActionTaken>moved</ThreatActionTaken>
+                <ThreatCategory>av.detect</ThreatCategory>
+                <ThreatHandled>True</ThreatHandled>
+                <ThreatName>Virus:DOS/</ThreatName>
+                <ThreatName>EICAR_Test_File</ThreatName>
+                <ThreatSeverity>4</ThreatSeverity>
+                <ThreatType>virus</ThreatType>
+            </CommonFields>
+        </Event>
+
+          <Event>
+            <EventID>1033</EventID>
+            <Severity>2</Severity>
+            <GMTTime>2018-10-03T22:19:15</GMTTime>
+            <LocalTime>2018-10-03T15:19:15</LocalTime>
+            <CommonFields>
+                <TargetFileName>_C:\Users\epoauto\Desktop\x.txt</TargetFileName>
+                <ThreatActionTaken>moved</ThreatActionTaken>
+                <ThreatCategory>av.detect</ThreatCategory>
+                <ThreatHandled>True</ThreatHandled>
+                <ThreatName>Virus:DOS/</ThreatName>
+                <ThreatName>EICAR_Test_File</ThreatName>
+                <ThreatSeverity>4</ThreatSeverity>
+                <ThreatType>virus</ThreatType>
+            </CommonFields>
+        </Event>
+    </SoftwareInfo>
+</EPOEvent>
