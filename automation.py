@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import Select
 import time
 import POM as pom
 import report as rep
-import os
+import os, subprocess 
 import datetime
 import shutil
 
@@ -19,7 +19,8 @@ def main():
     driver.maximize_window()
 
     # test paramters
-    languages = ['de', 'en', 'it', 'en_GB', 'pt_BR', 'zh_CN', 'zh_TW', 'fr', 'ja', 'ko', 'ru', 'es', 'tr' ]
+    #languages = ['de', 'en', 'it', 'en_GB', 'pt_BR', 'zh_CN', 'zh_TW', 'fr', 'ja', 'ko', 'ru', 'es', 'tr' ]
+    languages = ['de']
     epo_prefix = 'https://eposean2018:8443'
 
     # Create a new test report object
@@ -57,19 +58,26 @@ def main():
         auth = pom.epoAuthentication(driver, testReport, scr)
         auth.Login(language, 'admin', 'password')
         #install the required extensions
+        '''
         ext = pom.ManageExtensions(driver, testReport, scr)
         print('Installing extension: ProtectionWorkspace-services')
         ext.InstallExtension(epo_prefix, filepath='C:\\Automation\\Builds\\ProtectionWorkspace-services.zip', extension_id='ProtectionWorkspace-services', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
         print('Installing extension: ProtectionWorkspace')
         ext.InstallExtension(epo_prefix, filepath='C:\\Automation\\Builds\\ProtectionWorkspace.zip', extension_id='ProtectionWorkspace', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
+        
+        '''
         pw = protectionWorkspaceTasks(driver, testReport, scr, epo_prefix)
+        pw.validateInitialScreen()
+        pw.generateEvents()
+        pw.updateEvents()       
         pw.validateThreatOverview()
         pw.validateComplianceOverview()
         pw.validateEscalations()
         pw.validateSettings()
+        '''
         ext.UninstallExtension(epo_prefix, extension_id='ProtectionWorkspace', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
         ext.UninstallExtension(epo_prefix, extension_id='ProtectionWorkspace-services', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
-        
+        '''
         auth.Logoff()
 
         # quit browser
@@ -92,6 +100,8 @@ class protectionWorkspaceTasks(object):
     def validateThreatOverview(self):
 
         try:
+
+            self.driver.switch_to.default_content()
             self.driver.switch_to.frame('mfs-container-iframe')
             self.driver.find_element_by_css_selector('svg.ng-tns-c14-1 > rect:nth-child(2)').click()
             self.scr.Grab('PW_Escalated_Devices_Tooltip')
@@ -117,7 +127,6 @@ class protectionWorkspaceTasks(object):
 
     def validateComplianceOverview(self):
 
-        print('entered second tc')
         try:
 
             self.driver.find_element_by_css_selector('svg.ng-tns-c14-11 > rect:nth-child(2)').click()
@@ -181,7 +190,6 @@ class protectionWorkspaceTasks(object):
             print('Test Case: ' + 'Settings' + '- PASS')
             self.testReport.AddTestData('Settings', datetime.datetime.now(), 'PASS')
 
-
         except Exception as e:
 
             print('Test Case: ' + 'Settings' + '- FAIL')
@@ -201,6 +209,34 @@ class protectionWorkspaceTasks(object):
             print('Test Case: ' + 'Initial Screen' + '- FAIL')
             print(e)
             self.testReport.AddTestData('Initial Screen', datetime.datetime.now(), 'FAIL')
+
+
+    def generateEvents(self): 
+
+        try: 
+            print('Starting event generation')
+            os.system('C:\\Automation\\SimAgentWhite\\simagent_white.exe')
+            print('Completed event generaiton')
+  
+        except Exception as e: 
+            print(e)
+    
+    def updateEvents(self): 
+
+        try: 
+
+            self.driver.switch_to.frame('mfs-container-iframe')
+            self.driver.find_element_by_id('update-now').click()
+            time.sleep(5)
+            self.scr.Grab('PW_Initial_WithEvents')
+
+            print('Test Case: ' + 'Update Events' + '- PASS')
+            self.testReport.AddTestData('Update Events', datetime.datetime.now(), 'PASS')
+
+        except Exception as e: 
+            print('Test Case: ' + 'Update Events' + '- FAIL')
+            print (e)
+            self.testReport.AddTestData('Update Events', datetime.datetime.now(), 'FAIL')
 
 
 if __name__ == '__main__': main()

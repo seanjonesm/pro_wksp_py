@@ -1052,3 +1052,58 @@ gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remot
 1541597724823	Marionette	INFO	Listening on port 8836
 1541597724856	Marionette	WARN	TLS certificate errors will be ignored for this session
 1541599805094	Marionette	INFO	Stopped listening on port 8836
+1541687477090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.j2aR7bE0KWf9"
+1541687524300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.xUAlZUpgz5pT"
+1541687528874	Marionette	INFO	Listening on port 1153
+1541687528950	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541687603357	Marionette	INFO	Stopped listening on port 1153
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.jD7loHm2n6ay"
+1541687607059	Marionette	INFO	Listening on port 1194
+1541687607140	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541687822231	Marionette	INFO	Stopped listening on port 1194
+1541687856489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.CegzLAZ84auT"
+1541687861021	Marionette	INFO	Listening on port 1634
+1541687861130	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js 358 WalkerFront<.getMutations</<
+console.error: "navigated; resolution of _defaultNode aborted"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1541688367436	Marionette	INFO	Stopped listening on port 1634
+1541688400596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.qoWITyYcBln5"
+1541688405044	Marionette	INFO	Listening on port 2056
+1541688405232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541688525490	Marionette	INFO	Stopped listening on port 2056
+1541688538062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.YDzIuS0iqFCe"
+1541688542507	Marionette	INFO	Listening on port 2262
+1541688544739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541693837598	Marionette	INFO	Stopped listening on port 2262
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.u9TnZJjFy1SN"
+1541688650256	Marionette	INFO	Listening on port 2462
+1541688650342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541693837602	Marionette	INFO	Stopped listening on port 2462
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.aHt5uinraS0i"
+1541688789301	Marionette	INFO	Listening on port 2689
+1541688789394	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541693837661	Marionette	INFO	Stopped listening on port 2689
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.hqgUSbnRR5hY"
+1541688894702	Marionette	INFO	Listening on port 2909
+1541688894787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541688999899	Marionette	INFO	Stopped listening on port 2909
+1541689115487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.nLf4ZpEyNuYM"
+1541689120014	Marionette	INFO	Listening on port 3175
+1541689120134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541689227435	Marionette	INFO	Stopped listening on port 3175
+1541693840146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.hNc4GCT8CqCR"
+1541693844595	Marionette	INFO	Listening on port 1280
+1541693844771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541693959787	Marionette	INFO	Stopped listening on port 1280
