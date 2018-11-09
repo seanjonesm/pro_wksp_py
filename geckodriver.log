@@ -1107,3 +1107,292 @@ gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remot
 1541693844595	Marionette	INFO	Listening on port 1280
 1541693844771	Marionette	WARN	TLS certificate errors will be ignored for this session
 1541693959787	Marionette	INFO	Stopped listening on port 1280
+1541756531528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.4E3UiX7uZe0h"
+1541756536305	Marionette	INFO	Listening on port 16581
+1541756536780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541756638956	Marionette	INFO	Stopped listening on port 16581
+1541757093403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.pWfBsjLu2flo"
+1541757098000	Marionette	INFO	Listening on port 16929
+1541757098061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541757201163	Marionette	INFO	Stopped listening on port 16929
+1541757391006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.jTk8MVaNSM4P"
+1541757395464	Marionette	INFO	Listening on port 9080
+1541757395594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541757437333	Marionette	INFO	Stopped listening on port 9080
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541763447834	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.4Iik8kHANv29"
+1541763452516	Marionette	INFO	Listening on port 1037
+1541763452621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541763492208	Marionette	INFO	Stopped listening on port 1037
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541763578874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.CyvlEviq4Dya"
+1541763583583	Marionette	INFO	Listening on port 1113
+1541763583630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541763612343	Marionette	INFO	Stopped listening on port 1113
+1541763621337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.oMQ3b0NYOHAx"
+1541763625946	Marionette	INFO	Listening on port 1179
+1541763626049	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541763702803	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.BJtw3syANOPO"
+1541763707251	Marionette	INFO	Listening on port 1214
+1541763707453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541763749181	Marionette	INFO	Stopped listening on port 1214
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541763792630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.I54H18n8hTsN"
+1541763797035	Marionette	INFO	Listening on port 1259
+1541763797224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541763841257	Marionette	INFO	Stopped listening on port 1259
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541763874202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.swoi0SVCzP0I"
+1541763878593	Marionette	INFO	Listening on port 1300
+1541763878790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541763928653	Marionette	INFO	Stopped listening on port 1300
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541764235822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.bc0bYUHu59Q6"
+1541764240481	Marionette	INFO	Listening on port 1355
+1541764240570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541764290186	Marionette	INFO	Stopped listening on port 1355
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541764602065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.N2eKyre9WzlX"
+1541764606558	Marionette	INFO	Listening on port 1414
+1541764606702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541764667939	Marionette	INFO	Stopped listening on port 1414
+1541764711718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.3jga46uuvRrw"
+1541764718195	Marionette	INFO	Listening on port 1469
+1541764718545	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541764786518	Marionette	INFO	Stopped listening on port 1469
+1541764890843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.UUkMHEhnfbAA"
+1541764895361	Marionette	INFO	Listening on port 1528
+1541764895483	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541764964743	Marionette	INFO	Stopped listening on port 1528
+1541765182119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.cBheqXjCNJMz"
+1541765186588	Marionette	INFO	Listening on port 1636
+1541765186752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541765260062	Marionette	INFO	Stopped listening on port 1636
+1541765859166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.nnDxlakG5W2M"
+1541765865483	Marionette	INFO	Listening on port 1769
+1541765865983	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541765887514	Marionette	INFO	Stopped listening on port 1769
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541766029254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.H2KPJO4Opuox"
+1541766033765	Marionette	INFO	Listening on port 1818
+1541766033886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541766060337	Marionette	INFO	Stopped listening on port 1818
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541766249109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.NkUxWlpWtcTw"
+1541766253615	Marionette	INFO	Listening on port 1871
+1541766253741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541766280117	Marionette	INFO	Stopped listening on port 1871
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541766426123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.trv6FhKfNUEA"
+1541766430642	Marionette	INFO	Listening on port 1968
+1541766430774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541766455076	Marionette	INFO	Stopped listening on port 1968
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541766534890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.bKPYbfMjEo53"
+1541766539570	Marionette	INFO	Listening on port 2044
+1541766539641	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541766563875	Marionette	INFO	Stopped listening on port 2044
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541766671309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.nmF8Wc40JSqk"
+1541766675733	Marionette	INFO	Listening on port 2205
+1541766675903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541766703399	Marionette	INFO	Stopped listening on port 2205
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541769430160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.9csh2tgxGnnK"
+1541769434795	Marionette	INFO	Listening on port 21201
+1541769436838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541769461101	Marionette	INFO	Stopped listening on port 21201
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541769500859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.i7jQkdYdiKhy"
+1541769505322	Marionette	INFO	Listening on port 21243
+1541769505458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541769531585	Marionette	INFO	Stopped listening on port 21243
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541769680862	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.aGx3WmX2k87K"
+1541769687287	Marionette	INFO	Listening on port 21313
+1541769687316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541769711402	Marionette	INFO	Stopped listening on port 21313
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541769928272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.Nuy4trOu4H6w"
+1541769932721	Marionette	INFO	Listening on port 21386
+1541769932888	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770197340	Marionette	INFO	Stopped listening on port 21386
+ram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.ERKcIlvSOdsK"
+1541769958874	Marionette	INFO	Listening on port 21411
+1541769958966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541769982991	Marionette	INFO	Stopped listening on port 21411
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541770006595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.hepbyhlbjx0O"
+1541770011337	Marionette	INFO	Listening on port 21444
+1541770013553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770037634	Marionette	INFO	Stopped listening on port 21444
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541770087773	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.Bb539hBiipr6"
+1541770092344	Marionette	INFO	Listening on port 1050
+1541770092415	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770118587	Marionette	INFO	Stopped listening on port 1050
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541770188779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.EHu9tO8L5qkh"
+1541770193348	Marionette	INFO	Listening on port 1108
+1541770193422	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770219824	Marionette	INFO	Stopped listening on port 1108
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541770630320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.9aAFwVyS6TYu"
+1541770634790	Marionette	INFO	Listening on port 1220
+1541770634918	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770665151	Marionette	INFO	Stopped listening on port 1220
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541770805849	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.4ooKGk1OBjzD"
+1541770810346	Marionette	INFO	Listening on port 1278
+1541770810455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541770845375	Marionette	INFO	Stopped listening on port 1278
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541771196728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.NnAzMnBi590L"
+1541771201241	Marionette	INFO	Listening on port 1358
+1541771201383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541771236561	Marionette	INFO	Stopped listening on port 1358
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541771301836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.ctTOP3czXVFr"
+1541771306416	Marionette	INFO	Listening on port 1404
+1541771308463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541771339490	Marionette	INFO	Stopped listening on port 1404
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541771354567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.4DdsESjhisEY"
+1541771360894	Marionette	INFO	Listening on port 1587
+1541771361377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541771390600	Marionette	INFO	Stopped listening on port 1587
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541771721783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.1pxtqVt7uErP"
+1541771726627	Marionette	INFO	Listening on port 1671
+1541771728671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541771772589	Marionette	INFO	Stopped listening on port 1671
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541771802467	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.OZsyOXwT1xDC"
+1541771807054	Marionette	INFO	Listening on port 1722
+1541771807084	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541771847948	Marionette	INFO	Stopped listening on port 1722
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541772586639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.Q6pzFuMVLiZO"
+1541772591471	Marionette	INFO	Listening on port 2109
+1541772591882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541772627151	Marionette	INFO	Stopped listening on port 2109
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541772703264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.TdTtMXvY9hgO"
+1541772707798	Marionette	INFO	Listening on port 2165
+1541772709840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541772741229	Marionette	INFO	Stopped listening on port 2165
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541772776254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.SZJ7SBFUsQcQ"
+1541772780840	Marionette	INFO	Listening on port 2204
+1541772780903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541772824077	Marionette	INFO	Stopped listening on port 2204
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541772912263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.qMlXRksUmgMp"
+1541772916790	Marionette	INFO	Listening on port 2253
+1541772916864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 632))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+1541772919888	Marionette	INFO	Stopped listening on port 2253
+1541772996816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.egnOrQicUu4d"
+1541773001323	Marionette	INFO	Listening on port 2282
+1541773003462	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541773135889	Marionette	INFO	Stopped listening on port 2282
+1541773927635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.06N5arRquYKi"
+1541773932600	Marionette	INFO	Listening on port 1074
+1541773934711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541774017291	Marionette	INFO	Stopped listening on port 1074
+1541774095730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.0WpH2dwVFsiy"
+1541774102217	Marionette	INFO	Listening on port 1139
+1541774102584	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541774186529	Marionette	INFO	Stopped listening on port 1139
+1541774320982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.1XVX0qPsxzlI"
+1541774325527	Marionette	INFO	Listening on port 1246
+1541774325631	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541774409449	Marionette	INFO	Stopped listening on port 1246
+1541774436210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.ixF6rFr34DvM"
+1541774440693	Marionette	INFO	Listening on port 1307
+1541774442823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541774528703	Marionette	INFO	Stopped listening on port 1307
+1541774636094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sjones6\\AppData\\Local\\Temp\\rust_mozprofile.D1IHOylA1mJ8"
+1541774642681	Marionette	INFO	Listening on port 1414
+1541774642957	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "Error sending event: picker-node-picked"
+console.error: "TypeError: this.walker is null: form@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:104:11\nwrite@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:353:44\nwrite@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:276:39\nwrite@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:514:12\nwrite@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:696:20\n_sendEvent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:996:16\nActor/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:971:9\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\npick/this._onPick@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters.js:270:7\n"
+TypeError: this.walker is null: form@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:104:11
+write@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:353:44
+write@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:276:39
+write@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:514:12
+write@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:696:20
+_sendEvent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:996:16
+Actor/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:971:9
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+pick/this._onPick@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters.js:270:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "_refreshProcess of computed view cancelled"
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js 358 WalkerFront<.getMutations</<
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js, line 69: TypeError: this.walker is null
+1541775080570	Marionette	INFO	Stopped listening on port 1414

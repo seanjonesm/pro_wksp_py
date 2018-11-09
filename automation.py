@@ -1,11 +1,10 @@
 __author__ = 'sean_jones@mcafee.com'
-
 from selenium import webdriver
 # from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 import time
-import POM as pom
-import report as rep
+import ePOm as pom
+import lqareport as rep
 import os, subprocess 
 import datetime
 import shutil
@@ -64,20 +63,22 @@ def main():
         ext.InstallExtension(epo_prefix, filepath='C:\\Automation\\Builds\\ProtectionWorkspace-services.zip', extension_id='ProtectionWorkspace-services', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
         print('Installing extension: ProtectionWorkspace')
         ext.InstallExtension(epo_prefix, filepath='C:\\Automation\\Builds\\ProtectionWorkspace.zip', extension_id='ProtectionWorkspace', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
-        
         '''
         pw = protectionWorkspaceTasks(driver, testReport, scr, epo_prefix)
         pw.validateInitialScreen()
-        pw.generateEvents()
-        pw.updateEvents()       
+        #pw.generateEvents()
+        #pw.updateEvents()       
         pw.validateThreatOverview()
         pw.validateComplianceOverview()
+        pw.validatedExpandedThreatInformation()
         pw.validateEscalations()
         pw.validateSettings()
+        
         '''
         ext.UninstallExtension(epo_prefix, extension_id='ProtectionWorkspace', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
         ext.UninstallExtension(epo_prefix, extension_id='ProtectionWorkspace-services', group_list_id='OrionList.item.McAfee.ePolicy Orchestrator')
         '''
+
         auth.Logoff()
 
         # quit browser
@@ -113,6 +114,7 @@ class protectionWorkspaceTasks(object):
             self.driver.find_element_by_css_selector('svg.ng-tns-c14-9 > rect:nth-child(2)').click()
             self.scr.Grab('PW_Unresolved_Threats_Tooltip')
             self.driver.find_element_by_css_selector('.info-icon-overlay > svg:nth-child(1)').click()
+      
                         
 
             print('Test Case: ' + 'Threat Overview' + '- PASS')
@@ -164,11 +166,71 @@ class protectionWorkspaceTasks(object):
             self.testReport.AddTestData('Compliance Overview', datetime.datetime.now(), 'FAIL')
 
 
+
+    def validatedExpandedThreatInformation(self): 
+        
+        try:
+            self.driver.refresh()
+            self.driver.switch_to.default_content()
+            self.driver.switch_to.frame('mfs-container-iframe')
+            time.sleep(3)
+            self.driver.find_element_by_xpath('//div[contains(@class, "ng-tns-c25-2")]').click()
+            self.scr.Grab('PW_Escalated_Devices_Expanded')
+            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(1) > div:nth-child(1) > div:nth-child(1)').click()
+            time.sleep(5)
+            self.driver.find_element_by_xpath('//div[contains(@class, "ng-tns-c25-32")]').click()
+            self.scr.Grab('PW_Resolved_Threats_Expanded')
+            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(1) > div:nth-child(1) > div:nth-child(1)').click()
+            time.sleep(5)
+            self.driver.find_element_by_xpath('//div[contains(@class, "ng-tns-c25-62")]').click()
+            self.scr.Grab('PW_Resolved_Threats_Advanced_Expanded')
+            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(1) > div:nth-child(1) > div:nth-child(1)').click()
+            time.sleep(5)       
+            self.driver.find_element_by_xpath('//div[contains(@class, "ng-tns-c25-92")]').click()
+            self.scr.Grab('PW_Resolved_Threats_Basic_Expanded')
+            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(1) > div:nth-child(1) > div:nth-child(1)').click()
+            time.sleep(5)
+            
+            try:
+                self.driver.find_element_by_xpath('//div[contains(@class, "ng-tns-c25-122")]').click()
+                self.scr.Grab('PW_UnResolved_Threats_Expanded')
+                self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(1) > div:nth-child(1) > div:nth-child(1)').click()
+            
+            except Exception as e: 
+                print("Unresolved Threats not applicable")
+
+            print('Test Case: ' + 'Expanded Threat Informaiton' + '- PASS')
+            self.testReport.AddTestData('Expanded Threat Information', datetime.datetime.now(), 'PASS')
+
+
+        except Exception as e:
+            print('Test Case: ' + 'Expanded Threat Informaiton' + '- FAIL')
+            print(e)
+            self.testReport.AddTestData('Expanded Threat Informaiton', datetime.datetime.now(), 'FAIL')
+
+
     def validateEscalations(self):
 
         try:
-            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(2)').click()
+            self.driver.switch_to.default_content()
+            self.driver.switch_to.frame('mfs-container-iframe')
+            self.driver.find_element_by_css_selector('div.totalizer-counter:nth-child(2) > div:nth-child(1)').click()
             self.scr.Grab('PW_Escalations')
+            self.driver.find_element_by_xpath('//div[contains(@class, "table-content-body")]/table/tbody/tr[1]/td[2]').click()
+            self.scr.Grab('PW_Escalated_Device_Expanded')
+            self.driver.find_element_by_xpath('//span[contains(@class, "lsg-dropdown-list-primary")]').click()
+            self.scr.Grab('PW_Escalated_Dropdown')
+            self.driver.find_element_by_xpath('//span[contains(@class, "lsg-dropdown-list-primary")]//ul[1]/li[1]').click()
+            self.scr.Grab('PW_Exclude_Device_From_Compliance_Overview')
+            self.driver.find_element_by_xpath('//button[contains(@class, "lsg-btn-secondary")]').click()
+            self.driver.find_element_by_xpath('//span[contains(@class, "lsg-dropdown-list-primary")]').click()
+            time.sleep(1)
+            self.driver.find_element_by_xpath('//span[contains(@class, "lsg-dropdown-list-primary")]//ul[1]/li[2]').click()
+            self.scr.Grab('PW_Remove_Device_From_Escalations')
+            self.driver.find_element_by_xpath('//button[contains(@class, "lsg-btn-secondary")]').click()
+            self.driver.find_element_by_xpath('//pws-device-details/div/h2').click()
+            self.scr.Grab('PW_Escalated_Device_Details')
+
 
             print('Test Case: ' + 'Escalations' + '- PASS')
             self.testReport.AddTestData('Escalations', datetime.datetime.now(), 'PASS')
@@ -224,7 +286,7 @@ class protectionWorkspaceTasks(object):
     def updateEvents(self): 
 
         try: 
-
+            time.sleep(15)
             self.driver.switch_to.frame('mfs-container-iframe')
             self.driver.find_element_by_id('update-now').click()
             time.sleep(5)
