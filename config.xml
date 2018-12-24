@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+ <TestDetails>
+  <Setting Value="GA" Name="Build Number" />
+  <Setting Value="True" Name="InstallExtension" />
+  <Setting Value="False" Name="checkPseudoMT" />
+  <Setting Value="1.0" Name="Version Number" />
+  <Setting Value="Mozilla Firefox" Name="Browser" />
+ </TestDetails>
+ <LanguageList>
+  <Setting Name="en" />
+  <Setting Name="de" />
+  <Setting Name="it" />
+  <Setting Name="jp" />
+ </LanguageList>
+</Configuration>
